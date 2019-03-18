@@ -134,6 +134,14 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
 /* portfolio page */
 
 .work {
@@ -144,6 +152,13 @@ h3, h2 {
   overflow: auto;
 }
 
+.spacing {
+  position: relative;
+  float: left;
+  overflow: auto;
+  clear: both;
+}
+
 .work:nth-child(even) {
   margin-right: 40px;
 }
@@ -152,6 +167,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  clear: both;
 }
 
 .work h3 {
@@ -168,12 +184,13 @@ h3, h2 {
   border-bottom: 0;
 }
 
-.auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+.work a {
+  top: 30px;
+}
+
+.plink {
+  margin: 0;
+  margin-top: 5px;
 }
 
 /* contact page */
